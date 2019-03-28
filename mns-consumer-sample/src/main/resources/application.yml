@@ -1,0 +1,19 @@
+server: 
+  port: 8802
+spring: 
+  application: 
+    name: mns-consumer-2
+  mns: 
+    accessId: [your accessId]
+    accessKey: [your accessKey]
+    endpoint: [your endpoint]       
+  cloud: 
+    stream: 
+#      instanceCount: 3
+#      instanceIndex: 2
+      bindings:
+        input:
+          destination: test-stream-demo
+          group: consumer-group
+#          consumer: 
+#            partitioned: true

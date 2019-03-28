@@ -1,0 +1,2 @@
+MNS:\
+org.springframework.cloud.stream.binder.mns.config.MNSServiceAutoConfiguration

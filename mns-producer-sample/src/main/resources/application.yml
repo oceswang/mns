@@ -1,0 +1,17 @@
+server: 
+  port: 8901
+spring: 
+  application: 
+    name: mns-producer
+  mns: 
+    accessId: [your accessId]
+    accessKey: [your accessKey]
+    endpoint: [your endpoint]      
+  cloud: 
+    stream: 
+      bindings:
+        output:
+          destination: test-stream-demo
+#          producer: 
+#            partitionCount: 3 
+#            partitionKeyExpression: payload
