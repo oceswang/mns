@@ -7,9 +7,9 @@
 MNS配置：
 
 ```
-spring.cloud.stream.mns.binder.endpoint=
-spring.cloud.stream.mns.binder.accessId=
-spring.cloud.stream.mns.binder.accessKey=
+spring.mns.endpoint=
+spring.mns.accessId=
+spring.mns.accessKey=
 ```
 
 ## 实现
